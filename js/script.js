@@ -14,7 +14,7 @@ let inventory = [
 
   {
     id: 2,
-    image: "../images/kenya-shield.png",
+    image: "./images/kenya-shield.png",
     description:
       "Authentic African handmade earrings designed by Nembe Karuki in Kenya",
     originalPrice: 125,
@@ -22,7 +22,7 @@ let inventory = [
   },
   {
     id: 3,
-    image: "../images/mask-1.jpg",
+    image: "./images/mask-1.jpg",
     description:
       "This mask was carved by locals in the Ivory Coast and measure 27 inches tall and weighs 10 pounds",
     originalPrice: 325,
@@ -30,21 +30,21 @@ let inventory = [
   },
   {
     id: 4,
-    image: "../images/beaded-neck.jpg",
+    image: "./images/beaded-neck.jpg",
     description: "Handmade necklace with matching earrings.",
     originalPrice: 250,
     salePrice: 120,
   },
   {
     id: 5,
-    image: "../images/gold-brac.jpg",
+    image: "./images/gold-brac.jpg",
     description: "18K Gold lion bracelet designed and made in South Africa.",
     originalPrice: 250,
     salePrice: 120,
   },
   {
     id: 6,
-    image: "../images/table.jpg",
+    image: "./images/table.jpg",
     description:
       "African table hand carved from a single piece of wood from Ghana in 1921.",
     originalPrice: 2500,
@@ -52,14 +52,14 @@ let inventory = [
   },
   {
     id: 7,
-    image: "../images/modern-table.jpg",
+    image: "./images/modern-table.jpg",
     description: "Hand carved wooden table created and designed in Kenya.",
     originalPrice: 1950,
     salePrice: 1200,
   },
   {
     id: 8,
-    image: "../images/table.jpg",
+    image: "./images/table.jpg",
     description:
       "African table hand carved from a single piece of wood from Ghana in 1921.",
     originalPrice: 2500,
