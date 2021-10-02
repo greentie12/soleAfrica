@@ -1,6 +1,6 @@
 const products = document.querySelector("#products");
 
-const file = "../inventory.json";
+// const file = "../inventory.json";
 
 let inventory = [
   {
