@@ -1,6 +1,6 @@
 const products = document.querySelector("#products");
 
-const file = "../json/inventory.json";
+const file = "../inventory.json";
 
 async function retrieveItems(file) {
   const response = await fetch(file);
