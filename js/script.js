@@ -3,8 +3,8 @@ const products = document.querySelector("#products");
 const file = "../inventory.json";
 
 async function retrieveItems(file) {
-  const response = await fetch(file);
-  const itemData = await response.json();
+  const res = await fetch(file);
+  const itemData = await res.json();
   appendItems(itemData);
 }
 
