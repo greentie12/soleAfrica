@@ -5,7 +5,7 @@ const products = document.querySelector("#products");
 let inventory = [
   {
     id: 1,
-    image: "../images/gold-africa.jpeg",
+    image: "./images/gold-africa.jpeg",
     description:
       "18k gold pendant craftfully shaped into the continent of Africa",
     originalPrice: 1325,
