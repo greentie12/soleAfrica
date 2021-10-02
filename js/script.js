@@ -1,7 +1,5 @@
 const products = document.querySelector("#products");
 
-// const file = "../inventory.json";
-
 let inventory = [
   {
     id: 1,
@@ -66,14 +64,6 @@ let inventory = [
     salePrice: 2100,
   },
 ];
-
-// async function retrieveItems(file) {
-//   const res = await fetch(file);
-//   const itemData = await res.json();
-//   appendItems(itemData);
-// }
-
-// retrieveItems(file);
 
 const appendItems = (items) => {
   products.innerHTML = "";
